@@ -8,6 +8,6 @@ trait Hewan
 
   public function atraksi()
   {
-    return "$this->nama sedang $this->keahlian";
+    return "$this->nama sedang $this->keahlian" . PHP_EOL;
   }
 }
